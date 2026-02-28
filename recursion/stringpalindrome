@@ -1,0 +1,35 @@
+package com.javadsapractice;
+import java.sql.SQLOutput;
+import java.util.Scanner;
+public class Stringpalin {
+
+    public static boolean printr(int i, String s){
+
+        if(i>=s.length()/2){
+            return true;
+        }
+        if(s.charAt(i)!=s.charAt(s.length()-i-1)){
+            return false;
+        }
+         {
+            return printr(i+1,s);
+        }
+
+    }
+    public static void main(String []args){
+        int i;
+        System.out.println("Enter the String : ");
+        Scanner sc =new Scanner(System.in);
+        String s=sc.next() ;
+         printr( i=0,s);
+         boolean result= printr(0,s);
+         if(result){
+             System.out.println("String is palindrome");
+         }
+         else{
+             System.out.println("String is not a palindrome");
+         }
+
+
+    }
+}
