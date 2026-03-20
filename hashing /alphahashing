@@ -1,0 +1,18 @@
+import java.util.Scanner;
+public class alphahashing {
+    public static void main(String []args){
+        String s = "appleappperkfskjuwl";
+        int []hash =new int [256];
+        System.out.println("enter value of n :");
+        Scanner sc = new Scanner(System.in);
+        char n = sc.next().charAt(0);
+
+        for (int i=0; i<s.length();i++){
+            if (s.charAt(i)==n){
+                hash[s.charAt(i)]++;
+            }
+
+        } char c = (char)n;
+        System.out.println("the counter is : "+hash[c]);
+    }
+}
