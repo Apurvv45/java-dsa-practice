@@ -12,7 +12,6 @@ I am using this repository to improve my problem-solving skills, strengthen core
 
 📦 Arrays
 
-(More coming soon...)
 
 🧠 Concepts Practiced
 
