@@ -29,7 +29,7 @@ I am using this repository to improve my problem-solving skills, strengthen core
 
 🎯 Goal
 
-My goal is to:
+My goal is to:-
 
 -Build strong fundamentals in Data Structures and Algorithms
 
