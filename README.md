@@ -41,6 +41,6 @@ My goal is to:
 
 🛠 Language Used
 
--Java
+-Java.
 
 This repository will be regularly updated with new problems and improved solutions...
