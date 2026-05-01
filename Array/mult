@@ -1,0 +1,22 @@
+package com.javadsapractice;
+import java.util.Arrays;
+
+public class Array {
+
+
+    public static int[] mul(int[] arr){
+      int arr1[]=new int[arr.length];
+      for (int i=0; i<arr.length;i++) {
+          arr1[i] = arr[i] * 10;
+      }
+        System.out.println(Arrays.toString(arr1));
+      return arr;
+      }
+
+
+    public static void main(String[]args) {
+        int arr[] = {2, 3, 4, 5};
+        mul(arr);
+    }
+
+}
