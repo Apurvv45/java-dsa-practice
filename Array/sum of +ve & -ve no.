@@ -1,0 +1,24 @@
+package com.javadsapractice;
+
+public class Sum {
+    public static int sum(int[] arr){
+        int size = arr.length;
+        int positive =0;
+        int negative =0;
+        for (int i =0;i<size;i++){
+            if (arr[i]>0){
+                positive = positive + arr[i];
+            }
+            else {
+                negative = negative + arr[i];
+            }
+        }
+        System.out.println("the sum for positive is: "+positive+" and sum for negative is: "+negative);
+        return 0;
+    }
+    public static void main(String[] args){
+        int arr[]={1,-3,4,-5,-1,9};
+        sum(arr);
+
+    }
+}
