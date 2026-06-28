@@ -1,0 +1,39 @@
+package com.javadsapractice;
+
+public class Main {
+    public static void main(String[] args) {
+        int[] arr = {1,2,3,1,4,3,1,1,1};
+        int k = 6;
+
+        int result = longestSubarrayWithSumK(arr, k);
+        System.out.println(result);
+    }
+
+    public static int longestSubarrayWithSumK(int[] arr, int k) {
+        int n = arr.length;
+
+        int left = 0;
+        int right = 0;
+        int sum = arr[0];
+        int max = 0;
+
+        while (right < n) {
+            while (left <= right && sum > k) {
+                sum -= arr[left];
+                left++;
+            }
+
+            if (sum == k) {
+                max = Math.max(max, right - left + 1);
+            }
+
+            right++;
+
+            if (right < n) {
+                sum += arr[right];
+            }
+        }
+
+        return max;
+    }
+}
