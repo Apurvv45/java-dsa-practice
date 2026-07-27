@@ -1,6 +1,6 @@
 package com.javadsapractice;
 
-public class Array 
+public class Array {
 
 
     public static double getavg(int arr[]){
