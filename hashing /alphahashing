@@ -12,7 +12,7 @@ public class alphahashing {
                 hash[s.charAt(i)]++;
             }
 
-        } char c = (char);
+        } char c = (char)n;
         System.out.println("the counter is : "+hash[c]);
     }
 }
