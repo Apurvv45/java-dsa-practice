@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class alphahashing {
+public class alphahashing 
     public static void main(String []args){
         String s = "appleappperkfskjuwl";
         int []hash =new int [256];
